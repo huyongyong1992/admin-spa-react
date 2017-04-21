@@ -1,0 +1,37 @@
+.home {
+  &-welcome {
+    height: 32px;
+    margin: 24px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #333;
+  }
+  &-todo {
+    &:after {
+      content: ' ';
+      clear: both;
+      visibility: hidden;
+      font-size: 0;
+      height: 0;
+      display: table;
+    }
+  }
+  &-overview {
+    margin-bottom: 40px;
+    &:after {
+      content: ' ';
+      clear: both;
+      visibility: hidden;
+      font-size: 0;
+      height: 0;
+      display: table;
+    }
+    &-title {
+      height: 32px;
+      margin: 24px;
+      line-height: 32px;
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}

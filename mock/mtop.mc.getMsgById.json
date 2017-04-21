@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "terminal": "",
+    "api": "",
+    "v": "",
+    "ttid": "",
+    "mat": ""
+  },
+  "result": {
+    "success": true,
+    "msg": "",
+    "code": "",
+    "data": {
+      "type": 1,
+      "title": "消息标题",
+      "image": "http://4493bz.1985t.com/uploads/allimg/150127/4-15012G52133.jpg",
+      "abbr": "消息摘要",
+      "url": "http://www.baidu.com",
+      "push": 0,
+      "pushTitle": "客户端通知标题",
+      "pushAbbr": "客户端通知摘要",
+      "pushDate": "2017-01-10 16:00"
+    } 
+  }
+}

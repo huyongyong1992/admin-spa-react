@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "terminal": "",
+    "api": "",
+    "v": "",
+    "ttid": "",
+    "mat": ""
+  },
+  "result": {
+    "success": true,
+    "msg": "",
+    "code": "",
+    "data": {
+      "msgs": [{
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "0",
+        "replierName": "flyingfish No1",
+        "replyContent":"只要你敢充，我就敢送",
+        "replyTime":"2017-2-3",
+        "feedbackChannel":"1"
+      }, {
+       "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No2",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "0",
+        "replierName": "flyingfish No3",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"2",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "0",
+        "replierName": "flyingfish No5",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"1",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No6",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"1",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No1",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"2",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No1",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"3",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No8",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"1",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No9",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"2",
+        "replyTime":"2017-2-3"
+      }, {
+        "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No10",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"1",
+        "replyTime":"2017-2-3"
+      },{
+       "contentType":"3",
+        "feedbackContent": "上帝真的会掷骰子",
+        "createTime": "2016-11-23",
+        "status": "1",
+        "replierName": "flyingfish No11",
+        "replyContent":"只要你敢充，我就敢送",
+        "feedbackChannel":"2",
+        "replyTime":"2017-2-3"
+      }],
+      "total": 866
+    } 
+  }
+}

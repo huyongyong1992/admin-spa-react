@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "terminal": "",
+    "api": "",
+    "v": "",
+    "ttid": "",
+    "mat": ""
+  },
+  "result": {
+    "success": true,
+    "msg": "",
+    "code": "",
+    "data": {
+      "ts": 1024,
+      "list": [{
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }, {
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }, {
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }, {
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }, {
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }, {
+        "phone": 1111111111,
+        "shopLinkMan": "飞鱼",
+        "shopPhone": "0755-132457",
+        "shopName": "江南皮革厂",
+        "goldTimeString": "2016.12.12 12:12",
+        "shopIcon": "http://www.qqtouxiang.com/d/file/qinglv/20170211/54e33df1ad8d3031d74c401284ed2c4d.jpg"   
+      }],
+      "page":{
+        "currentPage":1,
+        "pageSize":10,
+        "totalCount":10
+      }
+    }
+
+  }
+}

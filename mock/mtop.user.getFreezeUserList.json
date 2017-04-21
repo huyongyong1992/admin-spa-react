@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "terminal": "",
+    "api": "",
+    "v": "",
+    "ttid": "",
+    "mat": ""
+  },
+  "result": {
+    "success": true,
+    "msg": "",
+    "code": "",
+    "data": {
+      "data": [{
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+       "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+       "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+       "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }, {
+        "freezeTime": "2016-11-23",
+        "mobile": "15929737272",
+        "freezeReason": "阿里舅舅"
+      }],
+      "total": 86
+    } 
+  }
+}

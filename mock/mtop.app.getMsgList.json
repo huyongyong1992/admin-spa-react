@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "terminal": "",
+    "api": "",
+    "v": "",
+    "ttid": "",
+    "mat": ""
+  },
+  "result": {
+    "success": true,
+    "msg": "",
+    "code": "",
+    "data": {
+      "msgs": [{
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }, {
+        "title": "充50送1000",
+        "date": "2016-11-23",
+        "abbr": "只要你敢充，我就敢送",
+        "url": "https://www.baidu.com"
+      }],
+      "total": 866
+    } 
+  }
+}

@@ -1,0 +1,66 @@
+.header{
+	padding-left:20px;
+	padding-top:20px;
+	height:auto;
+	h1{
+		margin-bottom:20px;
+	}
+	.setLabel{
+		display:flex;
+		margin-bottom:10px;
+		flex-flow:row wrap;
+		font-size:16px;
+		.labelHead{
+			margin-right:20px;
+		}
+		.label{
+			position: relative;
+			padding-left:10px;
+			height:24px;
+			border:1px solid #ccc;
+			padding-right: 25px;
+			margin-right:10px;
+			margin-bottom:10px
+		}
+		.delete{
+			padding-left:10px;
+			cursor: pointer;
+			// padding-right:10px ;
+			color:#f00;
+			position:absolute;
+			right:5px;
+			top:0;
+		}
+		.active{
+			display:none;
+		}
+		.addLabel{
+			margin-left:10px;
+			// color:#f86911;
+			.ant-btn{
+				height:26px;
+				color:#00f;
+			}
+		}
+	}
+	.ansWord{
+		font-size:16px;
+	}
+	.setAnswer{
+		display: flex;
+    margin-top: 10px;
+    margin-bottom:40px;
+    
+    textarea{
+    	width: 400px;
+    	height: 100px;
+    	outline:none;
+    }
+    button{
+    	width: 70px;
+	    background-color: #f86911;
+	    border: none;
+	    color: #fff;
+    }
+	}
+}
