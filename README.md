@@ -1,1 +1,1 @@
-## 微蚁科技后台管理系统
+基于react + reflux + fetch + webpack + router 搭建的后台管理系统
