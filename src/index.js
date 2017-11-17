@@ -19,7 +19,7 @@ import RecommendModel from './app/recommendModel';
 import GoldSupplier from './app/goldSupplier';
 import Test from './app/test';
 import QrCode from './app/qrCode';
-import './common/js/msgsocket';
+// import './common/js/msgsocket';
 
 const browserHistory = useRouterHistory(createHistory)({
   basename: '/admin',

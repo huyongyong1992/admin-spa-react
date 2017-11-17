@@ -29,7 +29,7 @@ class Component extends Reflux.Component {
     const { data } = this.state;
     return (
       <div className={className}>
-        <p className={`${className}-welcome`}>欢迎登录后台</p>
+        <p className={`${className}-welcome`}>欢迎登录后台管理系统</p>
         <div className={`${className}-todo`}>
           <Link to="/commercialReview/check">
             <TodoItem title="待审核商机" count={data.numOfUncheckedSubject} unit="条" />

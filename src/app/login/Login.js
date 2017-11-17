@@ -45,7 +45,7 @@ class Component extends Reflux.Component {
 
     return (
       <div className={className}>
-        <h1 className={`${className}-title`}>微蚁后台管理系统</h1>
+        <h1 className={`${className}-title`}>后台管理系统</h1>
         <Form
           className={`${className}-form`}
           

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import nattyFetch from 'natty-fetch';
-import socket from '../../common/js/msgsocket';
+// import socket from '../../common/js/msgsocket';
 
 const apiUrl = {
   dev: '//api.m-internal.s-ant.cn/m/',

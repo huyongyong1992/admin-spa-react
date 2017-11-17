@@ -8,7 +8,7 @@ import {message} from 'antd';
 import Menu from '../../components/menu';
 import './assets/css/root.less';
 import getQuery from '../../common/js/getQuery';
-import socket from '../../common/js/msgsocket';
+// import socket from '../../common/js/msgsocket';
 class Component extends Reflux.Component {
   constructor(props) {
     super(props);
@@ -23,7 +23,7 @@ class Component extends Reflux.Component {
   }
 
   componentWillUnmount() {
-    socket.close();
+    // socket.close();
   }
 
   componentDidMount() {

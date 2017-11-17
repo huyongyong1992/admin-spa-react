@@ -5,7 +5,7 @@ import { errorHandler } from '../../common/js/util';
 import fetch from '../../common/js/fetch';
 import {message} from 'antd';
 
-import socket from '../../common/js/msgsocket';
+// import socket from '../../common/js/msgsocket';
 export default Reflux.createStore({
   listenables: Actions,
   init() {
@@ -27,24 +27,24 @@ export default Reflux.createStore({
   
     
  
-  onOpen(evt) {
-    tihs.state.isConnected = true;
-    // console.log(evt);
-    //发送token
-    const token = localStorage.getItem('mat');
- //   websoket.send(data:{})
-  },
-  onMessage(evt) {
-    console.log(evt);
-  },
-  onClose(evt) {
-    message.error("已经断开连接");
-    this.state.isConnected = false;
-  },
-  onError(evt) {
-    message("连接异常,正尝试重新连接");
-    this.state.isConnected = false;
-  },
+//   onOpen(evt) {
+//     tihs.state.isConnected = true;
+//     // console.log(evt);
+//     //发送token
+//     const token = localStorage.getItem('mat');
+//  //   websoket.send(data:{})
+//   },
+//   onMessage(evt) {
+//     console.log(evt);
+//   },
+//   onClose(evt) {
+//     message.error("已经断开连接");
+//     this.state.isConnected = false;
+//   },
+//   onError(evt) {
+//     message("连接异常,正尝试重新连接");
+//     this.state.isConnected = false;
+//   },
   // if(!this.state.isConnected) {
   //   this.onWebsocket();  //断线重连
   // },
