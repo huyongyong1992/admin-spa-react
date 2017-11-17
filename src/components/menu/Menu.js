@@ -26,20 +26,20 @@ class Component extends React.Component {
               首页
             </Link>
           </Menu.Item>
-          <SubMenu key="commercialReview" title="商机审核管理">
+          <SubMenu key="commercialReview" title="好友管理">
             <Menu.Item key="commercialCheck">
               <Link to="/commercialReview/check">
-                商机审核
+                微信好友
               </Link>
             </Menu.Item>
             <Menu.Item key="commercialView">
               <Link to="/commercialReview/view">
-                商机查看
+                QQ好友
               </Link>
             </Menu.Item>
             <Menu.Item key="commercialSetting">
               <Link to="/commercialReview/setting">
-                商机设置
+                其他渠道好友
               </Link>
             </Menu.Item>
             {/*
@@ -63,7 +63,7 @@ class Component extends React.Component {
           </Menu.Item>
           <Menu.Item key="shopsManagement">
             <Link to="/shopsManagement">
-              商铺管理
+              邮件管理
             </Link>
           </Menu.Item>
           {/*
@@ -73,7 +73,7 @@ class Component extends React.Component {
             </Link>
           </Menu.Item>
         */}
-          <SubMenu key="identityReview" title="身份审核认证">
+          <SubMenu key="identityReview" title="身份审核">
             <Menu.Item key="personalVerify">
               <Link to="/identityReview/personal">
                 个人认证
@@ -81,34 +81,34 @@ class Component extends React.Component {
             </Menu.Item>
             <Menu.Item key="enterpriseVerify">
               <Link to="/identityReview/enterprise">
-                企业认证
+                好友认证
               </Link>
             </Menu.Item>
             <Menu.Item key="buyerVerify">
               <Link to="/identityReview/buyer">
-                特邀采购员
+                召唤师认证
               </Link>
             </Menu.Item>
           </SubMenu>
-          <SubMenu key="commentFeedback" title="评论反馈">
+          <SubMenu key="commentFeedback" title="好友评价">
             <Menu.Item key="purchaseFeedback">
               <Link to="/commentFeedback/purchaseFeedback">
-                采购端反馈
+                微信好友评价
               </Link>
             </Menu.Item>
             <Menu.Item key="sellerFeedback">
               <Link to="/commentFeedback/sellerFeedback">
-                商户端反馈
+                QQ好友评价
               </Link>
             </Menu.Item>
             <Menu.Item key="purchaseEvaluate">
               <Link to="/commentFeedback/purchaseEvaluate">
-                求购评价
+                微博好友评价
               </Link>
             </Menu.Item>
             <Menu.Item key="relativeSetting">
               <Link to="/commentFeedback/relativeSetting">
-                相关设置
+                其他好友评价
               </Link>
             </Menu.Item>
           </SubMenu>
@@ -133,7 +133,7 @@ class Component extends React.Component {
           
           <Menu.Item key="goldSupplier">
             <Link to="/goldSupplier">
-              金牌供应商
+              骨灰级玩家
             </Link>
           </Menu.Item>
           <Menu.Item key="qrCode">

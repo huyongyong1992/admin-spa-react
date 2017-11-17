@@ -478,6 +478,7 @@ class Component extends Reflux.Component {
     }, {
       title: '操作',
       dataIndex: '',
+      fixed:'right',
       className:'operate',
       render: (text, record) => {
         const me = this;
@@ -551,7 +552,7 @@ class Component extends Reflux.Component {
 
     return (
       <div className={className}>
-        <p className={`${className}-title`}>待审核商机列表</p>
+        <p className={`${className}-title`}>微信好友列表</p>
         <div className={`${className}-filter`}>
           <label htmlFor="search">搜索：</label>
           <Search style={{ width: 170, marginRight: 16 }} placeholder="输入搜索关键词" onSearch={this.onSearch} onChange={this.onKeyChange.bind(this)} maxLength="30"/>
@@ -578,6 +579,7 @@ class Component extends Reflux.Component {
         <div className={`${className}-table`}>
           <Table
             rowSelection={rowSelection}
+            scroll={{ x: 1800 }}
             columns={columns}
             dataSource={list}
             footer={footer}

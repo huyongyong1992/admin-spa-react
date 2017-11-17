@@ -6,47 +6,40 @@ import { message } from 'antd';
 import './assets/css/header.less';
 
 class Component extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      username: '',
+    };
+    // this.store = store;
+  }
   onLogout() {
     const { handleLogout } = this.props;
-
     handleLogout();
   }
 
   componentDidMount() {
-    // socket.addEventListener('message', (e) => {
-    //   console.log('websocket onmessage');
-    //   console.log(e);
-    //   try {
-    //     const msg = JSON.parse(e.data);
-
-    //     switch(msg.type) {
-    //       case 0:
-    //         message.info(<a href="/admin/commercialReview/check" >您有新的待审核求购信息，快点这里立即审核</a>, 5);
-    //         break;
-    //       case 1:
-    //         message.info(<a href="/admin/identityReview/personal" >您有新的待审核个人认证信息，快点这里立即审核</a>, 5);
-    //         break;
-    //       case 3:
-    //         message.info(<a href="/admin/identityReview/enterprise" >您有新的待审核企业认证信息，快点这里立即审核</a>, 5);
-    //         break;
-    //     }
-    //   } catch(error) {
-    //     console.error(error);
-    //   }
-    // });
+    const { username } = this.state;
+    const name = window.localStorage.getItem('username')
+    this.setState({
+      username : name
+     
+    })
   }
 
   render() {
-    const { avatar, username, className } = this.props;
+    const { className } = this.props;
+    const { username } = this.state;
 
     return (
       <div className={className} >
         <div className={`${className}-content`}>
           <div className={`${className}-content-logo`}>
-            <p>后台控制系统</p>
+            <p>英雄联盟后台控制系统</p>
           </div>
           <div className={`${className}-content-user`}>
-            <span className={`${className}-content-user-name`}>{username}</span>
+            <span className={`${className}-content-user-name`}>{ username }</span>
             <button className={`${className}-content-user-logout`} onClick={this.onLogout.bind(this)}>退出</button>
           </div>
         </div>

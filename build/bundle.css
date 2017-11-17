@@ -4,7 +4,7 @@
   border-bottom: 1px solid #eee;
 }
 .header-content {
-  width: 1080px;
+  min-width: 1080px;
   margin: 0 auto;
 }
 .header-content:after {
@@ -67,19 +67,22 @@ html body #app {
   font-family: sans-serif;
 }
 html body #app .root-body {
-  width: 1200px;
+  /*width:100%;*/
+  min-width: 1200px;
+  
   margin: 24px auto 0;
   border-radius: 4px;
   overflow: hidden;
   background: #fff;
+  display: flex;
 }
 html body #app .root-body-content {
-  width: 1020px;
-  float: right;
+  min-width: 1020px;
+  /*width:100%;*/
 }
 .displayItem {
   width: 180px;
-  float: left;
+  
   margin-left: 24px;
   height: 224px;
   text-align: center;

@@ -17,8 +17,8 @@ export default Reflux.createStore({
     console.log(params)
     if(params.data.mobile === '13265821397' && params.data.pwd === 'admin'){
       const mobile = params.data.mobile;
-      const nickname = '旅行者1号'
-      window.location.href = '/admin/home?id='+mobile+'&nickname='+nickname;
+      window.localStorage.setItem('username','旅行者1号')
+      window.location.href = '/admin/home?id='+mobile;
     }else{
       alert('用户名或密码错误')
     }
